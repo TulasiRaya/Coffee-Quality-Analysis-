@@ -176,19 +176,6 @@ Capstone Project/
 
 ---
 
-## Future Improvements
-
-- **Add a geographic map visual** — Plotting producing countries on a filled map with bubble size encoding average cup points would add immediate spatial context
-- **DAX measures for score grading bands** — Classify lots into SCA specialty tiers (80–84.99: Very Good, 85–89.99: Excellent, 90+: Outstanding) as calculated columns for richer filtering
-- **Correlation matrix visual** — A custom visual or matrix heatmap showing pairwise correlations between all 9 sensory attributes and Total Cup Points
-- **Publish to Power BI Service** — Deploy to the Power BI cloud platform to enable shared access, scheduled refresh, and mobile layout
-- **Altitude normalization** — The Altitude column contains mixed formats (ranges like "1700-1930" and single values like "1200"). Parsing these into a numeric midpoint would unlock altitude-based analysis
-- **Row-level security (RLS)** — For a multi-user deployment, RLS could restrict partner visibility per organizational role
-- **Natural language Q&A** — Enable Power BI's Q&A visual so non-technical stakeholders can query the data in plain English
-- **Predictive scoring model** — Integrate an Azure Machine Learning model to predict Total Cup Points from physical attributes and origin metadata
-
----
-
 ## Screenshots / Demo
 
 > Screenshots are not included in this repository. To view the live dashboard, open `Coffee Quality Analysis1.pbix` in Power BI Desktop.
