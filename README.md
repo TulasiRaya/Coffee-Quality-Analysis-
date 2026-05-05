@@ -127,16 +127,6 @@ Each page features **8 slicers** that can be used individually or in combination
 - **Altitude** — Elevation ranges of growing regions
 - Additional slicers vary per page (e.g., defect category, bag weight range)
 
-### Example Analysis Workflow
-
-**Goal:** Identify which processing methods produce the highest-scoring Ethiopian lots.
-
-1. Navigate to **Page 3 — Processing Methods Analysis**
-2. Set the **Country of Origin** slicer to `Ethiopia`
-3. Observe the bar chart ranking processing methods by average Total Cup Points
-4. Cross-reference with the donut chart showing defect distribution by method
-5. Switch to **Page 2** to verify the sensory attribute breakdown for the filtered subset
-
 ---
 
 ## Dataset Reference
