@@ -103,44 +103,6 @@ Raw CQI Arabica Data
 
 ---
 
-## Installation & Setup
-
-### Prerequisites
-
-| Requirement | Details |
-|---|---|
-| Microsoft Power BI Desktop | Free — [Download here](https://powerbi.microsoft.com/desktop/) |
-| Operating System | Windows 10 / 11 (Power BI Desktop is Windows-only) |
-| RAM | 4 GB minimum; 8 GB recommended |
-| Storage | ~600 MB for the project files |
-
-### Steps
-
-**1. Clone or download the repository**
-```bash
-git clone https://github.com/<your-username>/coffee-quality-powerbi.git
-cd coffee-quality-powerbi
-```
-
-**2. Open the Power BI report**
-```
-Double-click: Capstone Project/Coffee Quality Analysis1.pbix
-```
-Power BI Desktop will launch and load the report with the embedded data model.
-
-**3. (Optional) Reconnect the data source**
-
-If you wish to refresh the data from the CSV directly:
-- Go to **Home → Transform Data → Data Source Settings**
-- Update the file path to point to `Capstone Project/df_arabica_clean.csv`
-- Click **Close & Apply**
-
-**4. Explore the report**
-
-Start at **Page 1 (Navigation Hub)** and click any button to jump to the corresponding analysis section.
-
----
-
 ## Usage
 
 ### Navigating the Dashboard
@@ -251,51 +213,6 @@ Capstone Project/
 | Origin Region Analysis | Bar chart of countries by quality; data table of lot-level records |
 | Defects Analysis | Bubble scatter: defect volume × cup points × bag weight |
 | Time Series Analysis | Line chart of cup points trend by harvest year |
-
----
-
-## Contributing
-
-Contributions are welcome. To propose changes:
-
-1. Fork this repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Make your changes (data updates, new pages, DAX improvements, documentation)
-4. Commit with a descriptive message: `git commit -m "Add altitude normalization column"`
-5. Push to your fork: `git push origin feature/your-feature-name`
-6. Open a Pull Request with a summary of what was changed and why
-
-For dataset updates, please ensure the CSV schema matches the existing 31-column structure, or update the data model and all affected visuals accordingly.
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
-
-```
-MIT License
-
-Copyright (c) 2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ---
 
